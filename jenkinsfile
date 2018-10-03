@@ -1,0 +1,7 @@
+pipeline{
+agent none
+stages{
+stage("Multipipeline example"){
+steps{
+echo "hello"
+}}}}
